@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>mi_armario</title>
+  </head>
+  <body>
+    <h3>Mi armario</h3>
+    <form action="#">
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-thumbtack"></i>
+          <p>Aqui?</p>
+        </div>
+        <button class="checkbox">
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-square"></i>
+          <p>Categoría</p>
+        </div>
+        <input type="text" name="categoria" placeholder="Vacío" />
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-palette"></i>
+          <p>Color</p>
+        </div>
+        <input type="text" name="color" placeholder="Vacío" />
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-spinner"></i>
+          <p>Estado</p>
+        </div>
+        <select name="estado" id="estado">
+          <option value="nuevo">nuevo</option>
+          <option value="viejo">viejo</option>
+        </select>
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-image"></i>
+          <p>Fotografía</p>
+        </div>
+        <input type="text" name="fotografia" placeholder="Vacío" />
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-square"></i>
+          <p>Marca</p>
+        </div>
+        <input type="text" name="marca" placeholder="Vacío" />
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-wrench"></i>
+          <p>Necesita reparación</p>
+        </div>
+        <button class="checkbox">
+          <i class="fa-solid fa-check"></i>
+        </button>
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-solid fa-square"></i>
+          <p>Tipo</p>
+        </div>
+        <input type="text" name="tipo" placeholder="Vacío" />
+      </div>
+
+      <div class="input-item">
+        <div class="label">
+          <i class="fa-regular fa-circle-check"></i>
+          <p>Tipo de reparación</p>
+        </div>
+        <input type="text" name="tipo-reparación" placeholder="Vacío" />
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/eee10799b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./checkbox.js"></script>
+    <script src="./select.js"></script>
+  </body>
+</html>
